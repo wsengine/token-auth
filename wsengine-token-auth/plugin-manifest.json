@@ -1,0 +1,18 @@
+{
+	"name" : "Wsengine Token Auth",
+	"slug" : "wsengine-token-auth",
+	"author" : "<a href='https://github.com/wsengine'>wsengine</a>",
+	"version" : "1.0.0",
+	"download_url" : "https://github.com/wsengine/token-auth/releases/download/1.0.0/wsengine-token-auth-1.0.0.zip",
+	"requires" : "5.6",
+	"tested" : "6.2",
+	"requires_php" : "7.2",
+    "added" : "2024-04-17 23:04:00",
+	"last_updated" : "2024-04-17 23:04:00",
+    "homepage" : "https://github.com/wsengine/token-auth",
+	"sections" : {
+		"description" : "A simple way to authenticate into a site using a GET token.",
+		"installation" : "Click the activate button and that's it.",
+		"changelog" : "<h4>v1.0.0 released on April 17th, 2024</h4><ul><li>Initial Release</li></ul>"
+	}
+}
