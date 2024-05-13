@@ -17,6 +17,12 @@ add_action('login_init', function()
 	// redirect to admin panel if already logged in
 	if( is_user_logged_in() )
 	{
+		// disable page cache
+		header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+		header("Cache-Control: post-check=0, pre-check=0", false);
+		header("Pragma: no-cache");
+
+		// redirect to admin panel
 		wp_safe_redirect('/wp-admin/');
 		exit;
 	}
@@ -42,7 +48,12 @@ add_action('login_init', function()
 	if( is_wp_error( $auth ) )
 		return;
 
-	// redirect to admin
+	// disable page cache
+	header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+	header("Cache-Control: post-check=0, pre-check=0", false);
+	header("Pragma: no-cache");
+
+	// redirect to admin panel
 	wp_safe_redirect('/wp-admin/');
 	exit;
 });
