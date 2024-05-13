@@ -4,7 +4,7 @@
 	Plugin URI: httpd://github.com/wsengine/token-auth/
 	Description: A simple token authentication plugin for Wordpress. Required for wsengine.com auto-login functionality.
 	Author: wsengine.com
-	Version: 1.0.0
+	Version: 1.0.1
 	Author URI: https://www.wsengine.com/
 */
 
