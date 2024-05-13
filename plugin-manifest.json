@@ -3,7 +3,7 @@
 	"slug" : "wsengine-token-auth",
 	"author" : "<a href='https://github.com/wsengine'>wsengine</a>",
 	"version" : "1.0.1",
-	"download_url" : "https://github.com/wsengine/token-auth/releases/download/1.0.0/wsengine-token-auth-1.0.0.zip",
+	"download_url" : "https://github.com/wsengine/token-auth/releases/download/1.0.1/wsengine-token-auth-1.0.1.zip",
 	"requires" : "5.6",
 	"tested" : "6.2",
 	"requires_php" : "7.2",
