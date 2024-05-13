@@ -13,6 +13,6 @@
 	"sections" : {
 		"description" : "A simple way to authenticate into a site using a GET token.",
 		"installation" : "Click the activate button and that's it.",
-		"changelog" : "<h4>v1.0.0 released on April 17th, 2024</h4><ul><li>Initial Release</li></ul>"
+		"changelog" : "<h4>v1.0.1 released on May 13th, 2024</h4><ul><li>Bug fix</li></ul>"
 	}
 }
