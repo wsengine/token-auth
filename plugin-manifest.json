@@ -8,7 +8,7 @@
 	"tested" : "6.2",
 	"requires_php" : "7.2",
 	"added" : "2024-04-17 23:04:00",
-	"last_updated" : "2024-04-17 23:04:00",
+	"last_updated" : "2024-05-13 22:55:00",
 	"homepage" : "https://github.com/wsengine/token-auth",
 	"sections" : {
 		"description" : "A simple way to authenticate into a site using a GET token.",
